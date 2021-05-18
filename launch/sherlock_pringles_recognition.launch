@@ -9,6 +9,7 @@
 	  <remap from="image" to="$(arg camera_topic)"/>
 	  <param name="gui" value="$(arg gui)"/>
 	  <param name="objects_path" value="$(arg objects_path)"/>
+    <param name="settings_path" value="$(find sherlock_obj_recognition)/config/find_object_2d.ini"/>
     <param name="image_transport" value="compressed"/>
   </node>
 </launch>
