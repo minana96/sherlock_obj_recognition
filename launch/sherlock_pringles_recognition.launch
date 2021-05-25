@@ -7,9 +7,9 @@
 
   <!-- find_object_2d -->
   <node pkg="find_object_2d" type="find_object_2d" name="find_object_2d" >
-	  <remap from="image" to="$(arg camera_topic)"/>
-	  <param name="gui" value="$(arg gui)"/>
-	  <param name="objects_path" value="$(arg objects_path)"/>
+    <remap from="image" to="$(arg camera_topic)"/>
+    <param name="gui" value="$(arg gui)"/>
+    <param name="objects_path" value="$(arg objects_path)"/>
     <param name="settings_path" value="$(arg settings_path)"/>
     <param name="image_transport" value="compressed"/>
   </node>
