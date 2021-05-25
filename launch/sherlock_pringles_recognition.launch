@@ -3,13 +3,14 @@
   <arg name="camera_topic" default="raspicam_node/image"/>
   <arg name="gui" default="false"/>
   <arg name="objects_path" default="$(find sherlock_obj_recognition)/pringles"/>
+  <arg name="settings_path" default="$(find sherlock_obj_recognition)/config/find_object_2d.ini"/>
 
   <!-- find_object_2d -->
   <node pkg="find_object_2d" type="find_object_2d" name="find_object_2d" >
 	  <remap from="image" to="$(arg camera_topic)"/>
 	  <param name="gui" value="$(arg gui)"/>
 	  <param name="objects_path" value="$(arg objects_path)"/>
-    <param name="settings_path" value="$(find sherlock_obj_recognition)/config/find_object_2d.ini"/>
+    <param name="settings_path" value="$(arg settings_path)"/>
     <param name="image_transport" value="compressed"/>
   </node>
 </launch>
