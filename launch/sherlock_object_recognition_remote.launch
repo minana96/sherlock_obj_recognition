@@ -2,7 +2,7 @@
   <!-- Arguments -->
   <arg name="remote_machine_name" default="remote_pc"/>
   <arg name="camera_topic" default="raspicam_node/image"/>
-  <arg name="objects_path" default="/home/milica/catkin_ws/src/sherlock_obj_recognition/pringles"/>
+  <arg name="objects_path" default="/home/milica/catkin_ws/src/sherlock_obj_recognition/pictures"/>
   <arg name="settings_path" default="/home/milica/catkin_ws/src/sherlock_obj_recognition/config/find_object_2d.ini"/>
 
   <!-- find_object_2d -->
