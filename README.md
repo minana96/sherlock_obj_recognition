@@ -1,4 +1,4 @@
-# *sherki* ROS package
+# *sherlock_obj_recognition* ROS package
 
 This repository represents the *sherlock_obj_recognition* ROS pacakge, the package that configures and launches object recognition task via [find_object_2d](http://wiki.ros.org/find_object_2d) ROS package. The *sherlock_obj_recognition* package is intended for ROS Melodic. The repository needs to be cloned to the catkin workspace on both robot and the PC, and compiled with following commands:
 ```bash
